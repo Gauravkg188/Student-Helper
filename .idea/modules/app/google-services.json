@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "98833383325",
+    "firebase_url": "https://student-helper-de429.firebaseio.com",
+    "project_id": "student-helper-de429",
+    "storage_bucket": "student-helper-de429.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98833383325:android:7e1e54db6f0f4d42a1f974",
+        "android_client_info": {
+          "package_name": "com.kg.studenthelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98833383325-9gd4a8ci40f114au6bdhea4q0dboasrt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kg.studenthelper",
+            "certificate_hash": "81f889efb7240ebbd6703b1513fae2bda48f8e75"
+          }
+        },
+        {
+          "client_id": "98833383325-f4suf7tqfvdh461bllkrq3k8f04sd2l6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYeL3l-B6ClqPHc6mvpFD-MrG6EFHG0yA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98833383325-f4suf7tqfvdh461bllkrq3k8f04sd2l6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

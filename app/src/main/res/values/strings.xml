@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Student Helper</string>
+    <string name="student">student</string>
+    <string name="supervisor">supervisor</string>
+    <string name="Admin">admin</string>
+
+    <string name="BH2">bh2</string>
+    <string name="BH1">bh1</string>
+    <string name="building">building</string>
+    <string name="student_complain">student_complain</string>
+    <string name="problem">problem_image</string>
+
+    <string-array name="options">
+
+        <item>Electrician</item>
+        <item>Carpenter</item>
+        <item>Plumber</item>
+        <item>others</item>
+
+
+    </string-array>
+</resources>

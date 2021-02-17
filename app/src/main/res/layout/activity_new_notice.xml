@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.NewComplainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/layout_upper"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".2"
+            android:orientation="vertical">
+
+
+
+
+            <EditText
+                android:id="@+id/text_notice"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_below="@+id/text_room"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#F1BDBD"
+                android:gravity="center"
+                android:layout_weight="0.6"
+                android:hint="DESCRIPTION"
+                android:textColor="@android:color/black"
+                android:inputType="textMultiLine"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColorHint="#000000"
+                android:textSize="20sp" />
+
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/layout_middle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@+id/layout_upper"
+            android:layout_marginTop="0dp"
+            android:layout_weight=".60"
+            android:orientation="vertical">
+
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_baseline_close_24"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/imgClose"/>
+
+            <ImageView
+                android:id="@+id/img_notice"
+                android:layout_width="match_parent"
+                android:layout_marginTop="0dp"
+                android:layout_height="400dp"
+                android:layout_below="@+id/imgClose"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:background="@drawable/ic_baseline_image_24"
+
+
+
+
+                />
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@+id/layout_middle"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0.15"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/button_noticeUpload"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/oval"
+                android:text="SUBMIT"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
